@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorry Poornima</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 25px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      color: #ff4d6d;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #444;
+    }
+
+    .heart {
+      font-size: 4rem;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+    <h1>Sorry, Poornima</h1>
+    <p>I never meant to hurt you.<br>Please forgive me 💖</p>
+  </div>
+</body>
+</html>
